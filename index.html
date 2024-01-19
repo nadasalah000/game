@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <!-- ^ icon -->
+    <link rel="icon" href="image0/logo-sm.png">
+    <!-- ? font -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- font-family: 'Comfortaa', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <!-- font-family: 'Nerko One', cursive; -->
+    <!-- ? animation -->
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- ? fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- ? bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ? main -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ? media -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+   <div class="loading d-flex" id="loading">
+      <span class="load"></span>
+   </div>
+
+    <section class="games" id="game" >
+        <div class="topy">
+            <img src="image0/wraper.png" class="w-100" alt="game photo" />
+        </div>
+        <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 col-md-6 col-lg-9 d-block" id="nav">
+           <div class="container">
+              <h3 class="navbar-brand mb-0 text-uppercase">
+                 <img src="image0/logo-sm.png" alt="logo photo"> Game Reviews
+              </h3>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon bg-light"></span>
+              </button>
+              <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small" >
+                    <li class="nav-item" >
+                       <a role="button" class="nav-link active text-uppercase" aria-current="page" data-category="mmorpg" id="oneLink">mmorpg</a>
+                    </li>
+                    <li class="nav-item" value="shooter">
+                       <a role="button" class="nav-link text-uppercase" data-category="shooter">shooter</a>
+                    </li>
+                    <li class="nav-item" value="sailing">
+                       <a role="button" class="nav-link text-uppercase" data-category="sailing">sailing</a>
+                    </li>
+                    <li class="nav-item" value="permadeath">
+                       <a role="button" class="nav-link text-uppercase" data-category="permadeath">permadeath</a>
+                    </li>
+                    <li class="nav-item" value="superhero">
+                       <a role="button" class="nav-link text-uppercase" data-category="superhero">superhero</a>
+                    </li>
+                    <li class="nav-item" value="pixel">
+                       <a role="button" class="nav-link text-uppercase" data-category="pixel">pixel</a>
+                    </li>
+                 </ul>
+              </div>
+           </div>
+        </nav>
+
+        <div class="home container" id="home">
+            <div class="row" id="cards">
+               
+            </div>
+        </div>
+     </section>
+
+     <section class="details d-none " id="details">
+      <div class="container" id="gd">
+
+      </div>
+     </section>
+
+     
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

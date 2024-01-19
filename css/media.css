@@ -1,0 +1,8 @@
+@media only screen and (max-width: 200px) {
+ nav h3 img{
+  display: none;
+ }
+ .card h5{
+  font-size: 10px;
+ }
+}
